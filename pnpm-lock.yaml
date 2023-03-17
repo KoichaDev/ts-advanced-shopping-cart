@@ -1,0 +1,661 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@types/react': ^18.0.28
+  '@types/react-dom': ^18.0.11
+  '@vitejs/plugin-react-swc': ^3.0.0
+  react: ^18.2.0
+  react-dom: ^18.2.0
+  typescript: ^4.9.3
+  vite: ^4.2.0
+
+dependencies:
+  react: registry.npmjs.org/react/18.2.0
+  react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+
+devDependencies:
+  '@types/react': registry.npmjs.org/@types/react/18.0.28
+  '@types/react-dom': registry.npmjs.org/@types/react-dom/18.0.11
+  '@vitejs/plugin-react-swc': registry.npmjs.org/@vitejs/plugin-react-swc/3.2.0_vite@4.2.0
+  typescript: registry.npmjs.org/typescript/4.9.5
+  vite: registry.npmjs.org/vite/4.2.0
+
+packages:
+
+  registry.npmjs.org/@esbuild/android-arm/0.17.12:
+    resolution: {integrity: sha512-E/sgkvwoIfj4aMAPL2e35VnUJspzVYl7+M1B2cqeubdBhADV4uPon0KCc8p2G+LqSJ6i8ocYPCqY3A4GGq0zkQ==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@esbuild/android-arm/-/android-arm-0.17.12.tgz}
+    name: '@esbuild/android-arm'
+    version: 0.17.12
+    engines: {node: '>=12'}
+    cpu: [arm]
+    os: [android]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@esbuild/android-arm64/0.17.12:
+    resolution: {integrity: sha512-WQ9p5oiXXYJ33F2EkE3r0FRDFVpEdcDiwNX3u7Xaibxfx6vQE0Sb8ytrfQsA5WO6kDn6mDfKLh6KrPBjvkk7xA==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@esbuild/android-arm64/-/android-arm64-0.17.12.tgz}
+    name: '@esbuild/android-arm64'
+    version: 0.17.12
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [android]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@esbuild/android-x64/0.17.12:
+    resolution: {integrity: sha512-m4OsaCr5gT+se25rFPHKQXARMyAehHTQAz4XX1Vk3d27VtqiX0ALMBPoXZsGaB6JYryCLfgGwUslMqTfqeLU0w==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@esbuild/android-x64/-/android-x64-0.17.12.tgz}
+    name: '@esbuild/android-x64'
+    version: 0.17.12
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [android]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@esbuild/darwin-arm64/0.17.12:
+    resolution: {integrity: sha512-O3GCZghRIx+RAN0NDPhyyhRgwa19MoKlzGonIb5hgTj78krqp9XZbYCvFr9N1eUxg0ZQEpiiZ4QvsOQwBpP+lg==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.17.12.tgz}
+    name: '@esbuild/darwin-arm64'
+    version: 0.17.12
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@esbuild/darwin-x64/0.17.12:
+    resolution: {integrity: sha512-5D48jM3tW27h1qjaD9UNRuN+4v0zvksqZSPZqeSWggfMlsVdAhH3pwSfQIFJwcs9QJ9BRibPS4ViZgs3d2wsCA==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@esbuild/darwin-x64/-/darwin-x64-0.17.12.tgz}
+    name: '@esbuild/darwin-x64'
+    version: 0.17.12
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@esbuild/freebsd-arm64/0.17.12:
+    resolution: {integrity: sha512-OWvHzmLNTdF1erSvrfoEBGlN94IE6vCEaGEkEH29uo/VoONqPnoDFfShi41Ew+yKimx4vrmmAJEGNoyyP+OgOQ==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@esbuild/freebsd-arm64/-/freebsd-arm64-0.17.12.tgz}
+    name: '@esbuild/freebsd-arm64'
+    version: 0.17.12
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [freebsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@esbuild/freebsd-x64/0.17.12:
+    resolution: {integrity: sha512-A0Xg5CZv8MU9xh4a+7NUpi5VHBKh1RaGJKqjxe4KG87X+mTjDE6ZvlJqpWoeJxgfXHT7IMP9tDFu7IZ03OtJAw==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@esbuild/freebsd-x64/-/freebsd-x64-0.17.12.tgz}
+    name: '@esbuild/freebsd-x64'
+    version: 0.17.12
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [freebsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@esbuild/linux-arm/0.17.12:
+    resolution: {integrity: sha512-WsHyJ7b7vzHdJ1fv67Yf++2dz3D726oO3QCu8iNYik4fb5YuuReOI9OtA+n7Mk0xyQivNTPbl181s+5oZ38gyA==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@esbuild/linux-arm/-/linux-arm-0.17.12.tgz}
+    name: '@esbuild/linux-arm'
+    version: 0.17.12
+    engines: {node: '>=12'}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@esbuild/linux-arm64/0.17.12:
+    resolution: {integrity: sha512-cK3AjkEc+8v8YG02hYLQIQlOznW+v9N+OI9BAFuyqkfQFR+DnDLhEM5N8QRxAUz99cJTo1rLNXqRrvY15gbQUg==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@esbuild/linux-arm64/-/linux-arm64-0.17.12.tgz}
+    name: '@esbuild/linux-arm64'
+    version: 0.17.12
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@esbuild/linux-ia32/0.17.12:
+    resolution: {integrity: sha512-jdOBXJqcgHlah/nYHnj3Hrnl9l63RjtQ4vn9+bohjQPI2QafASB5MtHAoEv0JQHVb/xYQTFOeuHnNYE1zF7tYw==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@esbuild/linux-ia32/-/linux-ia32-0.17.12.tgz}
+    name: '@esbuild/linux-ia32'
+    version: 0.17.12
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@esbuild/linux-loong64/0.17.12:
+    resolution: {integrity: sha512-GTOEtj8h9qPKXCyiBBnHconSCV9LwFyx/gv3Phw0pa25qPYjVuuGZ4Dk14bGCfGX3qKF0+ceeQvwmtI+aYBbVA==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@esbuild/linux-loong64/-/linux-loong64-0.17.12.tgz}
+    name: '@esbuild/linux-loong64'
+    version: 0.17.12
+    engines: {node: '>=12'}
+    cpu: [loong64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@esbuild/linux-mips64el/0.17.12:
+    resolution: {integrity: sha512-o8CIhfBwKcxmEENOH9RwmUejs5jFiNoDw7YgS0EJTF6kgPgcqLFjgoc5kDey5cMHRVCIWc6kK2ShUePOcc7RbA==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@esbuild/linux-mips64el/-/linux-mips64el-0.17.12.tgz}
+    name: '@esbuild/linux-mips64el'
+    version: 0.17.12
+    engines: {node: '>=12'}
+    cpu: [mips64el]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@esbuild/linux-ppc64/0.17.12:
+    resolution: {integrity: sha512-biMLH6NR/GR4z+ap0oJYb877LdBpGac8KfZoEnDiBKd7MD/xt8eaw1SFfYRUeMVx519kVkAOL2GExdFmYnZx3A==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@esbuild/linux-ppc64/-/linux-ppc64-0.17.12.tgz}
+    name: '@esbuild/linux-ppc64'
+    version: 0.17.12
+    engines: {node: '>=12'}
+    cpu: [ppc64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@esbuild/linux-riscv64/0.17.12:
+    resolution: {integrity: sha512-jkphYUiO38wZGeWlfIBMB72auOllNA2sLfiZPGDtOBb1ELN8lmqBrlMiucgL8awBw1zBXN69PmZM6g4yTX84TA==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@esbuild/linux-riscv64/-/linux-riscv64-0.17.12.tgz}
+    name: '@esbuild/linux-riscv64'
+    version: 0.17.12
+    engines: {node: '>=12'}
+    cpu: [riscv64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@esbuild/linux-s390x/0.17.12:
+    resolution: {integrity: sha512-j3ucLdeY9HBcvODhCY4b+Ds3hWGO8t+SAidtmWu/ukfLLG/oYDMaA+dnugTVAg5fnUOGNbIYL9TOjhWgQB8W5g==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@esbuild/linux-s390x/-/linux-s390x-0.17.12.tgz}
+    name: '@esbuild/linux-s390x'
+    version: 0.17.12
+    engines: {node: '>=12'}
+    cpu: [s390x]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@esbuild/linux-x64/0.17.12:
+    resolution: {integrity: sha512-uo5JL3cgaEGotaqSaJdRfFNSCUJOIliKLnDGWaVCgIKkHxwhYMm95pfMbWZ9l7GeW9kDg0tSxcy9NYdEtjwwmA==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.17.12.tgz}
+    name: '@esbuild/linux-x64'
+    version: 0.17.12
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@esbuild/netbsd-x64/0.17.12:
+    resolution: {integrity: sha512-DNdoRg8JX+gGsbqt2gPgkgb00mqOgOO27KnrWZtdABl6yWTST30aibGJ6geBq3WM2TIeW6COs5AScnC7GwtGPg==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@esbuild/netbsd-x64/-/netbsd-x64-0.17.12.tgz}
+    name: '@esbuild/netbsd-x64'
+    version: 0.17.12
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [netbsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@esbuild/openbsd-x64/0.17.12:
+    resolution: {integrity: sha512-aVsENlr7B64w8I1lhHShND5o8cW6sB9n9MUtLumFlPhG3elhNWtE7M1TFpj3m7lT3sKQUMkGFjTQBrvDDO1YWA==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@esbuild/openbsd-x64/-/openbsd-x64-0.17.12.tgz}
+    name: '@esbuild/openbsd-x64'
+    version: 0.17.12
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [openbsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@esbuild/sunos-x64/0.17.12:
+    resolution: {integrity: sha512-qbHGVQdKSwi0JQJuZznS4SyY27tYXYF0mrgthbxXrZI3AHKuRvU+Eqbg/F0rmLDpW/jkIZBlCO1XfHUBMNJ1pg==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@esbuild/sunos-x64/-/sunos-x64-0.17.12.tgz}
+    name: '@esbuild/sunos-x64'
+    version: 0.17.12
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [sunos]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@esbuild/win32-arm64/0.17.12:
+    resolution: {integrity: sha512-zsCp8Ql+96xXTVTmm6ffvoTSZSV2B/LzzkUXAY33F/76EajNw1m+jZ9zPfNJlJ3Rh4EzOszNDHsmG/fZOhtqDg==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@esbuild/win32-arm64/-/win32-arm64-0.17.12.tgz}
+    name: '@esbuild/win32-arm64'
+    version: 0.17.12
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@esbuild/win32-ia32/0.17.12:
+    resolution: {integrity: sha512-FfrFjR4id7wcFYOdqbDfDET3tjxCozUgbqdkOABsSFzoZGFC92UK7mg4JKRc/B3NNEf1s2WHxJ7VfTdVDPN3ng==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@esbuild/win32-ia32/-/win32-ia32-0.17.12.tgz}
+    name: '@esbuild/win32-ia32'
+    version: 0.17.12
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@esbuild/win32-x64/0.17.12:
+    resolution: {integrity: sha512-JOOxw49BVZx2/5tW3FqkdjSD/5gXYeVGPDcB0lvap0gLQshkh1Nyel1QazC+wNxus3xPlsYAgqU1BUmrmCvWtw==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.17.12.tgz}
+    name: '@esbuild/win32-x64'
+    version: 0.17.12
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@swc/core-darwin-arm64/1.3.41:
+    resolution: {integrity: sha512-D4fybODToO/BvuP35bionDUrSuTVVr8eW+mApr1unOqb3mfiqOrVv0VP2fpWNRYiA+xMq+oBCB6KcGpL60HKWQ==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@swc/core-darwin-arm64/-/core-darwin-arm64-1.3.41.tgz}
+    name: '@swc/core-darwin-arm64'
+    version: 1.3.41
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@swc/core-darwin-x64/1.3.41:
+    resolution: {integrity: sha512-0RoVyiPCnylf3TG77C3S86PRSmaq+SaYB4VDLJFz3qcEHz1pfP0LhyskhgX4wjQV1mveDzFEn1BVAuo0eOMwZA==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@swc/core-darwin-x64/-/core-darwin-x64-1.3.41.tgz}
+    name: '@swc/core-darwin-x64'
+    version: 1.3.41
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@swc/core-linux-arm-gnueabihf/1.3.41:
+    resolution: {integrity: sha512-mZW7GeY7Uw1nkKoWpx898ou20oCSt8MR+jAVuAhMjX+G4Zr0WWXYSigWNiRymhR6Q9KhyvoFpMckguSvYWmXsw==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@swc/core-linux-arm-gnueabihf/-/core-linux-arm-gnueabihf-1.3.41.tgz}
+    name: '@swc/core-linux-arm-gnueabihf'
+    version: 1.3.41
+    engines: {node: '>=10'}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@swc/core-linux-arm64-gnu/1.3.41:
+    resolution: {integrity: sha512-e91LGn+6KuLFw3sWk5swwGc/dP4tXs0mg3HrhjImRoofU02Bb9aHcj5zgrSO8ZByvDtm/Knn16h1ojxIMOFaxg==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@swc/core-linux-arm64-gnu/-/core-linux-arm64-gnu-1.3.41.tgz}
+    name: '@swc/core-linux-arm64-gnu'
+    version: 1.3.41
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@swc/core-linux-arm64-musl/1.3.41:
+    resolution: {integrity: sha512-Q7hmrniLWsQ7zjtImGcjx1tl5/Qxpel+fC+OXTnGvAyyoGssSftIBlXMnqVLteL78zhxIPAzi+gizWAe5RGqrA==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@swc/core-linux-arm64-musl/-/core-linux-arm64-musl-1.3.41.tgz}
+    name: '@swc/core-linux-arm64-musl'
+    version: 1.3.41
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@swc/core-linux-x64-gnu/1.3.41:
+    resolution: {integrity: sha512-h4sv1sCfZQgRIwmykz8WPqVpbvHb13Qm3SsrbOudhAp2MuzpWzsgMP5hAEpdCP/nWreiCz3aoM6L8JeakRDq0g==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.3.41.tgz}
+    name: '@swc/core-linux-x64-gnu'
+    version: 1.3.41
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@swc/core-linux-x64-musl/1.3.41:
+    resolution: {integrity: sha512-Z7c26i38378d0NT/dcz8qPSAXm41lqhNzykdhKhI+95mA9m4pskP18T/0I45rmyx1ywifypu+Ip+SXmKeVSPgQ==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.3.41.tgz}
+    name: '@swc/core-linux-x64-musl'
+    version: 1.3.41
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@swc/core-win32-arm64-msvc/1.3.41:
+    resolution: {integrity: sha512-I0CYnPc+ZGc912YeN0TykIOf/Q7yJQHRwDuhewwD6RkbiSEaVfSux5pAmmdoKw2aGMSq+cwLmgPe9HYLRNz+4w==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@swc/core-win32-arm64-msvc/-/core-win32-arm64-msvc-1.3.41.tgz}
+    name: '@swc/core-win32-arm64-msvc'
+    version: 1.3.41
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@swc/core-win32-ia32-msvc/1.3.41:
+    resolution: {integrity: sha512-EygN4CVDWF29/U2T5fXGfWyLvRbMd2hiUgkciAl7zHuyJ6nKl+kpodqV2A0Wd4sFtSNedU0gQEBEXEe7cqvmsA==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@swc/core-win32-ia32-msvc/-/core-win32-ia32-msvc-1.3.41.tgz}
+    name: '@swc/core-win32-ia32-msvc'
+    version: 1.3.41
+    engines: {node: '>=10'}
+    cpu: [ia32]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@swc/core-win32-x64-msvc/1.3.41:
+    resolution: {integrity: sha512-Mfp8qD1hNwWWRy0ISdwQJu1g0UYoVTtuQlO0z3aGbXqL51ew9e56+8j3M1U9i95lXFyWkARgjDCcKkQi+WezyA==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.3.41.tgz}
+    name: '@swc/core-win32-x64-msvc'
+    version: 1.3.41
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/@swc/core/1.3.41:
+    resolution: {integrity: sha512-v6P2dfqJDpZ/7RXPvWge9oI6YgolDM0jtNhQZ2qdXrLBzaWQdDoBGBTJ8KN/nTgGhX3IkNvSB1fafXQ+nVnqAQ==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@swc/core/-/core-1.3.41.tgz}
+    name: '@swc/core'
+    version: 1.3.41
+    engines: {node: '>=10'}
+    requiresBuild: true
+    optionalDependencies:
+      '@swc/core-darwin-arm64': registry.npmjs.org/@swc/core-darwin-arm64/1.3.41
+      '@swc/core-darwin-x64': registry.npmjs.org/@swc/core-darwin-x64/1.3.41
+      '@swc/core-linux-arm-gnueabihf': registry.npmjs.org/@swc/core-linux-arm-gnueabihf/1.3.41
+      '@swc/core-linux-arm64-gnu': registry.npmjs.org/@swc/core-linux-arm64-gnu/1.3.41
+      '@swc/core-linux-arm64-musl': registry.npmjs.org/@swc/core-linux-arm64-musl/1.3.41
+      '@swc/core-linux-x64-gnu': registry.npmjs.org/@swc/core-linux-x64-gnu/1.3.41
+      '@swc/core-linux-x64-musl': registry.npmjs.org/@swc/core-linux-x64-musl/1.3.41
+      '@swc/core-win32-arm64-msvc': registry.npmjs.org/@swc/core-win32-arm64-msvc/1.3.41
+      '@swc/core-win32-ia32-msvc': registry.npmjs.org/@swc/core-win32-ia32-msvc/1.3.41
+      '@swc/core-win32-x64-msvc': registry.npmjs.org/@swc/core-win32-x64-msvc/1.3.41
+    dev: true
+
+  registry.npmjs.org/@types/prop-types/15.7.5:
+    resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.5.tgz}
+    name: '@types/prop-types'
+    version: 15.7.5
+    dev: true
+
+  registry.npmjs.org/@types/react-dom/18.0.11:
+    resolution: {integrity: sha512-O38bPbI2CWtgw/OoQoY+BRelw7uysmXbWvw3nLWO21H1HSh+GOlqPuXshJfjmpNlKiiSDG9cc1JZAaMmVdcTlw==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@types/react-dom/-/react-dom-18.0.11.tgz}
+    name: '@types/react-dom'
+    version: 18.0.11
+    dependencies:
+      '@types/react': registry.npmjs.org/@types/react/18.0.28
+    dev: true
+
+  registry.npmjs.org/@types/react/18.0.28:
+    resolution: {integrity: sha512-RD0ivG1kEztNBdoAK7lekI9M+azSnitIn85h4iOiaLjaTrMjzslhaqCGaI4IyCJ1RljWiLCEu4jyrLLgqxBTew==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@types/react/-/react-18.0.28.tgz}
+    name: '@types/react'
+    version: 18.0.28
+    dependencies:
+      '@types/prop-types': registry.npmjs.org/@types/prop-types/15.7.5
+      '@types/scheduler': registry.npmjs.org/@types/scheduler/0.16.2
+      csstype: registry.npmjs.org/csstype/3.1.1
+    dev: true
+
+  registry.npmjs.org/@types/scheduler/0.16.2:
+    resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.2.tgz}
+    name: '@types/scheduler'
+    version: 0.16.2
+    dev: true
+
+  registry.npmjs.org/@vitejs/plugin-react-swc/3.2.0_vite@4.2.0:
+    resolution: {integrity: sha512-IcBoXL/mcH7JdQr/nfDlDwTdIaH8Rg7LpfQDF4nAht+juHWIuv6WhpKPCSfY4+zztAaB07qdBoFz1XCZsgo3pQ==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/@vitejs/plugin-react-swc/-/plugin-react-swc-3.2.0.tgz}
+    id: registry.npmjs.org/@vitejs/plugin-react-swc/3.2.0
+    name: '@vitejs/plugin-react-swc'
+    version: 3.2.0
+    peerDependencies:
+      vite: ^4
+    dependencies:
+      '@swc/core': registry.npmjs.org/@swc/core/1.3.41
+      vite: registry.npmjs.org/vite/4.2.0
+    dev: true
+
+  registry.npmjs.org/csstype/3.1.1:
+    resolution: {integrity: sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/csstype/-/csstype-3.1.1.tgz}
+    name: csstype
+    version: 3.1.1
+    dev: true
+
+  registry.npmjs.org/esbuild/0.17.12:
+    resolution: {integrity: sha512-bX/zHl7Gn2CpQwcMtRogTTBf9l1nl+H6R8nUbjk+RuKqAE3+8FDulLA+pHvX7aA7Xe07Iwa+CWvy9I8Y2qqPKQ==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/esbuild/-/esbuild-0.17.12.tgz}
+    name: esbuild
+    version: 0.17.12
+    engines: {node: '>=12'}
+    hasBin: true
+    requiresBuild: true
+    optionalDependencies:
+      '@esbuild/android-arm': registry.npmjs.org/@esbuild/android-arm/0.17.12
+      '@esbuild/android-arm64': registry.npmjs.org/@esbuild/android-arm64/0.17.12
+      '@esbuild/android-x64': registry.npmjs.org/@esbuild/android-x64/0.17.12
+      '@esbuild/darwin-arm64': registry.npmjs.org/@esbuild/darwin-arm64/0.17.12
+      '@esbuild/darwin-x64': registry.npmjs.org/@esbuild/darwin-x64/0.17.12
+      '@esbuild/freebsd-arm64': registry.npmjs.org/@esbuild/freebsd-arm64/0.17.12
+      '@esbuild/freebsd-x64': registry.npmjs.org/@esbuild/freebsd-x64/0.17.12
+      '@esbuild/linux-arm': registry.npmjs.org/@esbuild/linux-arm/0.17.12
+      '@esbuild/linux-arm64': registry.npmjs.org/@esbuild/linux-arm64/0.17.12
+      '@esbuild/linux-ia32': registry.npmjs.org/@esbuild/linux-ia32/0.17.12
+      '@esbuild/linux-loong64': registry.npmjs.org/@esbuild/linux-loong64/0.17.12
+      '@esbuild/linux-mips64el': registry.npmjs.org/@esbuild/linux-mips64el/0.17.12
+      '@esbuild/linux-ppc64': registry.npmjs.org/@esbuild/linux-ppc64/0.17.12
+      '@esbuild/linux-riscv64': registry.npmjs.org/@esbuild/linux-riscv64/0.17.12
+      '@esbuild/linux-s390x': registry.npmjs.org/@esbuild/linux-s390x/0.17.12
+      '@esbuild/linux-x64': registry.npmjs.org/@esbuild/linux-x64/0.17.12
+      '@esbuild/netbsd-x64': registry.npmjs.org/@esbuild/netbsd-x64/0.17.12
+      '@esbuild/openbsd-x64': registry.npmjs.org/@esbuild/openbsd-x64/0.17.12
+      '@esbuild/sunos-x64': registry.npmjs.org/@esbuild/sunos-x64/0.17.12
+      '@esbuild/win32-arm64': registry.npmjs.org/@esbuild/win32-arm64/0.17.12
+      '@esbuild/win32-ia32': registry.npmjs.org/@esbuild/win32-ia32/0.17.12
+      '@esbuild/win32-x64': registry.npmjs.org/@esbuild/win32-x64/0.17.12
+    dev: true
+
+  registry.npmjs.org/fsevents/2.3.2:
+    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz}
+    name: fsevents
+    version: 2.3.2
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.npmjs.org/function-bind/1.1.1:
+    resolution: {integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz}
+    name: function-bind
+    version: 1.1.1
+    dev: true
+
+  registry.npmjs.org/has/1.0.3:
+    resolution: {integrity: sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/has/-/has-1.0.3.tgz}
+    name: has
+    version: 1.0.3
+    engines: {node: '>= 0.4.0'}
+    dependencies:
+      function-bind: registry.npmjs.org/function-bind/1.1.1
+    dev: true
+
+  registry.npmjs.org/is-core-module/2.11.0:
+    resolution: {integrity: sha512-RRjxlvLDkD1YJwDbroBHMb+cukurkDWNyHx7D3oNB5x9rb5ogcksMC5wHCadcXoo67gVr/+3GFySh3134zi6rw==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/is-core-module/-/is-core-module-2.11.0.tgz}
+    name: is-core-module
+    version: 2.11.0
+    dependencies:
+      has: registry.npmjs.org/has/1.0.3
+    dev: true
+
+  registry.npmjs.org/js-tokens/4.0.0:
+    resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz}
+    name: js-tokens
+    version: 4.0.0
+    dev: false
+
+  registry.npmjs.org/loose-envify/1.4.0:
+    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz}
+    name: loose-envify
+    version: 1.4.0
+    hasBin: true
+    dependencies:
+      js-tokens: registry.npmjs.org/js-tokens/4.0.0
+    dev: false
+
+  registry.npmjs.org/nanoid/3.3.4:
+    resolution: {integrity: sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/nanoid/-/nanoid-3.3.4.tgz}
+    name: nanoid
+    version: 3.3.4
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+    dev: true
+
+  registry.npmjs.org/path-parse/1.0.7:
+    resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz}
+    name: path-parse
+    version: 1.0.7
+    dev: true
+
+  registry.npmjs.org/picocolors/1.0.0:
+    resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz}
+    name: picocolors
+    version: 1.0.0
+    dev: true
+
+  registry.npmjs.org/postcss/8.4.21:
+    resolution: {integrity: sha512-tP7u/Sn/dVxK2NnruI4H9BG+x+Wxz6oeZ1cJ8P6G/PZY0IKk4k/63TDsQf2kQq3+qoJeLm2kIBUNlZe3zgb4Zg==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/postcss/-/postcss-8.4.21.tgz}
+    name: postcss
+    version: 8.4.21
+    engines: {node: ^10 || ^12 || >=14}
+    dependencies:
+      nanoid: registry.npmjs.org/nanoid/3.3.4
+      picocolors: registry.npmjs.org/picocolors/1.0.0
+      source-map-js: registry.npmjs.org/source-map-js/1.0.2
+    dev: true
+
+  registry.npmjs.org/react-dom/18.2.0_react@18.2.0:
+    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz}
+    id: registry.npmjs.org/react-dom/18.2.0
+    name: react-dom
+    version: 18.2.0
+    peerDependencies:
+      react: ^18.2.0
+    dependencies:
+      loose-envify: registry.npmjs.org/loose-envify/1.4.0
+      react: registry.npmjs.org/react/18.2.0
+      scheduler: registry.npmjs.org/scheduler/0.23.0
+    dev: false
+
+  registry.npmjs.org/react/18.2.0:
+    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/react/-/react-18.2.0.tgz}
+    name: react
+    version: 18.2.0
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      loose-envify: registry.npmjs.org/loose-envify/1.4.0
+    dev: false
+
+  registry.npmjs.org/resolve/1.22.1:
+    resolution: {integrity: sha512-nBpuuYuY5jFsli/JIs1oldw6fOQCBioohqWZg/2hiaOybXOft4lonv85uDOKXdf8rhyK159cxU5cDcK/NKk8zw==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/resolve/-/resolve-1.22.1.tgz}
+    name: resolve
+    version: 1.22.1
+    hasBin: true
+    dependencies:
+      is-core-module: registry.npmjs.org/is-core-module/2.11.0
+      path-parse: registry.npmjs.org/path-parse/1.0.7
+      supports-preserve-symlinks-flag: registry.npmjs.org/supports-preserve-symlinks-flag/1.0.0
+    dev: true
+
+  registry.npmjs.org/rollup/3.19.1:
+    resolution: {integrity: sha512-lAbrdN7neYCg/8WaoWn/ckzCtz+jr70GFfYdlf50OF7387HTg+wiuiqJRFYawwSPpqfqDNYqK7smY/ks2iAudg==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/rollup/-/rollup-3.19.1.tgz}
+    name: rollup
+    version: 3.19.1
+    engines: {node: '>=14.18.0', npm: '>=8.0.0'}
+    hasBin: true
+    optionalDependencies:
+      fsevents: registry.npmjs.org/fsevents/2.3.2
+    dev: true
+
+  registry.npmjs.org/scheduler/0.23.0:
+    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/scheduler/-/scheduler-0.23.0.tgz}
+    name: scheduler
+    version: 0.23.0
+    dependencies:
+      loose-envify: registry.npmjs.org/loose-envify/1.4.0
+    dev: false
+
+  registry.npmjs.org/source-map-js/1.0.2:
+    resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz}
+    name: source-map-js
+    version: 1.0.2
+    engines: {node: '>=0.10.0'}
+    dev: true
+
+  registry.npmjs.org/supports-preserve-symlinks-flag/1.0.0:
+    resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz}
+    name: supports-preserve-symlinks-flag
+    version: 1.0.0
+    engines: {node: '>= 0.4'}
+    dev: true
+
+  registry.npmjs.org/typescript/4.9.5:
+    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz}
+    name: typescript
+    version: 4.9.5
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
+
+  registry.npmjs.org/vite/4.2.0:
+    resolution: {integrity: sha512-AbDTyzzwuKoRtMIRLGNxhLRuv1FpRgdIw+1y6AQG73Q5+vtecmvzKo/yk8X/vrHDpETRTx01ABijqUHIzBXi0g==, registry: https://npm.pkg.github.com/colorline, tarball: https://registry.npmjs.org/vite/-/vite-4.2.0.tgz}
+    name: vite
+    version: 4.2.0
+    engines: {node: ^14.18.0 || >=16.0.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': '>= 14'
+      less: '*'
+      sass: '*'
+      stylus: '*'
+      sugarss: '*'
+      terser: ^5.4.0
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      less:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+    dependencies:
+      esbuild: registry.npmjs.org/esbuild/0.17.12
+      postcss: registry.npmjs.org/postcss/8.4.21
+      resolve: registry.npmjs.org/resolve/1.22.1
+      rollup: registry.npmjs.org/rollup/3.19.1
+    optionalDependencies:
+      fsevents: registry.npmjs.org/fsevents/2.3.2
+    dev: true
